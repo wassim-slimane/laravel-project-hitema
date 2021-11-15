@@ -75,11 +75,11 @@ Finalement j'ai donc volontairement retiré le bouton "Inscription" et je n'ai p
 
 En local j'ai réussi à créer un "répertoire lié" dans /Public pour récupérer les images enregistrées dans le storage, par contre lorsque j'ai retélécharger le projet le répertoire lié et les images n'existaient plus. j'ai compris que ce fonctionnement sert à ne pas récupérer les assets enregistrés par un user mais je n'ai pas réussi à trouver la solution afin d'avoir un répertoire liée donc finalement la modification d'une image ne fonctionne pas.
 
-## Clé étrangère et table pivot 
+### Clé étrangère et table pivot 
 
 J'ai rencontré de nombreux problèmes avec les tables qui contiennent des clés étrangère et la table pivot lors de l'ajout, la modification et la suppression d'objets de ces tables. Par exemple pour les formations je n'ai pas réussis à leur ajouter ou supprimer des chapitres.
 
-## Organisation / Temps 
+### Organisation / Temps 
 
 Je pense avoir eu une organisation qui ne correspondait pas à la durée de réalisation du projet.
 Concrètement j'ai passé trop de temps sur la documentation et comprendre comment certaines choses fonctionne en Laravel alors que je n'en n'ai pas eu l'utilité lors de la réalisation du projet. Je voyais le projet long mais assez simple par rapport à ce qu'on a vu en cours et j'ai négligé les potentiels blocages sur certaines fonctionnalités qui ont augmenter mon temps de réalisation des tâches.
