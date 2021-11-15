@@ -59,5 +59,12 @@ A ce stade l'application n'a pas encore "d'application key", une fois sur l'URL 
 
 En local j'ai réussi à créer un "répertoire lié" dans /Public pour récupérer les images enregistrées dans le storage, par contre lorsque j'ai retélécharger le projet le répertoire lié et les images n'existaient plus. j'ai compris que ce fonctionnement sert à ne pas récupérer les assets enregistrés par un user mais je n'ai pas réussi à trouver la solution afin d'avoir un répertoire liée donc finalement la modification d'une image ne fonctionne pas.
 
+### Inscription
+
+J'ai réussi à mettre en place le système de mailing pour l'inscription, malheureusement je n'ai pas réussi à aller au bout.
+Je pensais que je pouvais mettre un formlaire dans le mail qui redirige vers une fonction et qui prend en paramètre les informations de l'utiliateur mais après tests ceci ne fonctionnait pas.
+Ce qu'il aurait fallu faire je pense c'est de créer une table UserPending qui permet d'enregistrer tous les users qui souhaitent devenir des formateurs et faire un lien avec l'id de ce user pour ensuite pouvoir l'ajouter lorsque l'admin clique sur le bouton "Ajouter ce formateur".
+J'aurais aussi pu enregistrer directement le user dans la BD et set son accountStatus à false, puis quand l'admin Ajoute le formateur alors l'accountStatus devient true.
+La seconde méthode n'était pas autorisée par la consigne je n'ai pas eu le temps d'ajouter une autre table.
 
 
