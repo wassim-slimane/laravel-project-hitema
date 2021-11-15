@@ -6,6 +6,8 @@ Il permet de visualiser une liste de formations créés par des formateurs.
 
 Les formateurs peuvent éditer et supprimer des formations, des chapitres de cours et leurs contenues.
 
+<img width="883" alt="image" src="https://user-images.githubusercontent.com/59143138/141752533-3e26bdc4-cd8e-469d-926d-9ac677d4c758.png">
+
 
 ## Installation
 
