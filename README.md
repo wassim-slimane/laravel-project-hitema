@@ -49,7 +49,7 @@ Votre base de donnée est à présent créée et peuplée.
 
 A ce stade l'application n'a pas encore "d'application key", une fois sur l'URL du site en local (localhost:8000), Laravel vous propose de générer une "application key'. 
 
-- Cliquez sur "generate application key"
+- Cliquez sur "generate application key" et rechargez la page
 
 **Vous voilà à présent sur le site** 
 
