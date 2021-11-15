@@ -16,13 +16,24 @@ class UserSeeder extends Seeder
     {
         User::create([
             'email' => 'admin@admin.com',
-            'password' => '$2y$10$fAwBzj5VeTGoqSVcgd9VAOX.Q0KZ78DCNeunZFdSIZBT8HNE45EJW',
+            'password' => '$2y$10$fAwBzj5VeTGoqSVcgd9VAOX.Q0KZ78DCNeunZFdSIZBT8HNE45EJW', //admin
             'created_at' => now(),
             'updated_at' => now(),
             'lastname' => 'Maffar',
             'firstname' => 'Julien',
             'accountStatus' => 1,
             'role_id' => '1',
+        ]);
+
+        User::create([
+            'email' => 'user@user.com',
+            'password' => '$2y$10$8IHUEF6bQt16Zs0jHqh3tu9jOglGlG2LHdf4lafdkCmxTSDKWvdiy', //user
+            'created_at' => now(),
+            'updated_at' => now(),
+            'lastname' => 'Slimane',
+            'firstname' => 'Wassim',
+            'accountStatus' => 1,
+            'role_id' => '2',
         ]);
 
         User::factory()
