@@ -17,23 +17,23 @@ Les formateurs peuvent éditer et supprimer des formations, des chapitres de cou
 - Modifier les champs suivant selon votre configuration en local :
 <br>
 <code>
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=laravel
-DB_USERNAME=root
-DB_PASSWORD=
+DB_CONNECTION=mysql <br>
+DB_HOST=127.0.0.1 <br>
+DB_PORT=3306 <br>
+DB_DATABASE=laravel <br>
+DB_USERNAME=root <br>
+DB_PASSWORD= <br>
 </code>
 <br>
 Ma configuration sur MAC avec MAMPP était la suivant : 
 <br>
 <code>
-    DB_CONNECTION=mysql
-    DB_HOST=127.0.0.1
-    DB_PORT=8889
-    DB_DATABASE=laravel-formations-project
-    DB_USERNAME=root
-    DB_PASSWORD=root
+    DB_CONNECTION=mysql <br>
+    DB_HOST=127.0.0.1 <br>
+    DB_PORT=8889 <br>
+    DB_DATABASE=laravel-formations-project <br>
+    DB_USERNAME=root <br>
+    DB_PASSWORD=root <br>
 </code>
 <br>
 - Lancer la commande : `php artisan migrate` ou `php artisan migrate:fresh` si ce message apparait : `Nothing to migrate.`
