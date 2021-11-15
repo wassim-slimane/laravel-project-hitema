@@ -15,6 +15,7 @@ Les formateurs peuvent éditer et supprimer des formations, des chapitres de cou
 - Créer un fichier .env à la racine du projet
 - Copier le contenue du fichier .env.exemple et le coller dans votre nouveau fichier .env
 - Modifier les champs suivant selon votre configuration en local :
+<br>
 `
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -23,7 +24,9 @@ DB_DATABASE=laravel
 DB_USERNAME=root
 DB_PASSWORD=
 `
+<br>
 Ma configuration sur MAC avec MAMPP était la suivant : 
+<br>
 `
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -32,6 +35,7 @@ DB_DATABASE=laravel-formations-project
 DB_USERNAME=root
 DB_PASSWORD=root
  
+<br>
 - Lancer la commande : `php artisan migrate` ou `php artisan migrate:fresh` si ce message apparait : `Nothing to migrate.`
 - Lancer la commande : `php artisan db:seed`
 
