@@ -40,12 +40,12 @@ Ma configuration sur MAC avec MAMPP était la suivant :
     DB_PASSWORD=root <br>
 </code>
 <br>
-- Lancer la commande : `php artisan migrate` ou `php artisan migrate:fresh` si ce message apparait : `Nothing to migrate.`
-- Lancer la commande : `php artisan db:seed`
+- Lancer la commande : ` php artisan migrate ` ou `php artisan migrate:fresh` si ce message apparait : ` Nothing to migrate. `
+- Lancer la commande : ` php artisan db:seed `
 
 Votre base de donnée est à présent créée et peuplée.
 
-- Pour lancer le server local : `php artisan serve` puis aller sur le site web via l'url indiqué.
+- Pour lancer le server local : ` php artisan serve ` puis aller sur le site web via l'url indiqué.
 
 A ce stade l'application n'a pas encore "d'application key", une fois sur l'URL du site en local (localhost:8000), Laravel vous propose de générer une "application key'. 
 
