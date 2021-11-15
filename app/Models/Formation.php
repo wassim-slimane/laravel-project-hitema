@@ -9,4 +9,15 @@ class Formation extends Model
 {
     use HasFactory;
 
+    protected $fillable = ['title', 'description', 'presentation', 'price', 'publicationStatus'];
+
+    public function category()
+    {
+        return $this->belongsTo(Category::class);
+    }
+
+    public function chapters()
+    {
+        return $this->belongsToMany(Chapter::class);
+    }
 }

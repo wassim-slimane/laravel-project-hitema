@@ -15,8 +15,8 @@ class UserSeeder extends Seeder
     public function run()
     {
         User::create([
-            'email' => 'julien.maffar@hotmail.com',
-            'password' => '$2y$10$qgmGWlW0gShkdF9e7FnQr.xBIGASFerRqYEEvoWbspMufoRnuAkYm',
+            'email' => 'admin@admin.com',
+            'password' => '$2y$10$fAwBzj5VeTGoqSVcgd9VAOX.Q0KZ78DCNeunZFdSIZBT8HNE45EJW',
             'created_at' => now(),
             'updated_at' => now(),
             'lastname' => 'Maffar',

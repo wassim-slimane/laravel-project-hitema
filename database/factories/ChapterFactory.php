@@ -23,10 +23,10 @@ class ChapterFactory extends Factory
     {
         return [
             'author' => $this->faker->numberBetween(1, 4),
-            'title' => $this->faker->name(),
+            'title' => $this->faker->sentence(5),
             'chapter_num' => $this->faker->numberBetween(1, 10),
-            'discipline' => $this->faker->name(),
-            'subject' => $this->faker->name(),
+            'discipline' => $this->faker->sentence(5),
+            'subject' => $this->faker->sentence(10),
         ];
     }
 }

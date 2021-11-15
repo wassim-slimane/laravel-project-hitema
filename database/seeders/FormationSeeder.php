@@ -22,61 +22,51 @@ class FormationSeeder extends Seeder
             ->where('id', 1)
             ->update([
                 'img' => 'formation-1.png',
-                'category' => 'concours',
             ]);
         DB::table('formations')
             ->where('id', 2)
             ->update([
                 'img' => 'formation-2.png',
-                'category' => 'concours',
             ]);
         DB::table('formations')
             ->where('id', 3)
             ->update([
                 'img' => 'formation-3.png',
-                'category' => 'concours',
             ]);
         DB::table('formations')
             ->where('id', 4)
             ->update([
                 'img' => 'formation-4.png',
-                'category' => 'certification',
             ]);
         DB::table('formations')
             ->where('id', 5)
             ->update([
                 'img' => 'formation-5.png',
-                'category' => 'certification',
             ]);
         DB::table('formations')
             ->where('id', 6)
             ->update([
                 'img' => 'formation-6.png',
-                'category' => 'certification',
             ]);
         DB::table('formations')
             ->where('id', 7)
             ->update([
                 'img' => 'formation-7.png',
-                'category' => 'VAE',
             ]);
         DB::table('formations')
             ->where('id', 8)
             ->update([
                 'img' => 'formation-8.png',
-                'category' => 'VAE',
             ]);
         DB::table('formations')
             ->where('id', 9)
             ->update([
                 'img' => 'formation-9.png',
-                'category' => 'VAE',
             ]);
         DB::table('formations')
             ->where('id', 10)
             ->update([
                 'img' => 'formation-10.png',
-                'category' => 'VAE',
             ]);
     }
 }

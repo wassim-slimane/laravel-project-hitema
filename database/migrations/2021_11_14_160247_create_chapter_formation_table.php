@@ -14,8 +14,8 @@ class CreateChapterFormationTable extends Migration
     public function up()
     {
         Schema::create('chapter_formation', function (Blueprint $table) {
-            $table->foreignId('chapter_id')->constrained('chapters');
-            $table->foreignId('formation_id')->constrained('formations');
+            $table->foreignId('chapter_id')->constrained('chapters')->onDelete('cascade');
+            $table->foreignId('formation_id')->constrained('formations')->onDelete('cascade');
             $table->timestamps();
         });
     }

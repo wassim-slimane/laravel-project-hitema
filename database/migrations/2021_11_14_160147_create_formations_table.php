@@ -20,8 +20,8 @@ class CreateFormationsTable extends Migration
             $table->text('description');
             $table->longText('presentation');
             $table->string('img')->nullable();
-            $table->string('category')->nullable();
             $table->string('price');
+            $table->foreignId('category_id')->constrained('categories');
             $table->boolean('publicationStatus');
             $table->timestamps();
         });
