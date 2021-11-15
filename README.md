@@ -40,6 +40,7 @@ Ma configuration sur MAC avec MAMPP était la suivant :
     DB_PASSWORD=root <br>
 </code>
 <br>
+
 - Lancer la commande : ` php artisan migrate ` ou `php artisan migrate:fresh` si ce message apparait : ` Nothing to migrate. `
 - Lancer la commande : ` php artisan db:seed `
 
