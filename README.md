@@ -53,5 +53,11 @@ A ce stade l'application n'a pas encore "d'application key", une fois sur l'URL 
 
 **Vous voilà à présent sur le site** 
 
-## Fonctionnalités manquantes
+## Difficultés rencontrées 
+
+- Utilisation du storage :
+
+En local j'ai réussi à créer un "répertoire lié" dans /Public pour récupérer les images enregistrées dans le storage, par contre lorsque j'ai retélécharger le projet le répertoire lié et les images n'existaient plus. j'ai compris que ce fonctionnement sert à ne pas récupérer les assets enregistrés par un user mais je n'ai pas réussi à trouver la solution afin d'avoir un répertoire liée donc finalement la modification d'une image ne fonctionne pas.
+
+
 
